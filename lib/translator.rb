@@ -30,10 +30,9 @@ def get_english_meaning(yaml_path, emoticon)
   english = ""
   my_library['get_meaning'].each do |a, b|
     if a == emoticon 
-      english == b 
       p a
     end
-end
+   
     if english = ""
       return "Sorry, that emoticon was not found"
     end
