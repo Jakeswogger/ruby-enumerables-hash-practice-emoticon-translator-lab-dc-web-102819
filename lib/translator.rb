@@ -32,7 +32,7 @@ def get_english_meaning(yaml_path, emoticon)
     if a == emoticon 
       p a
     end
-   
+   end
     if english = ""
       return "Sorry, that emoticon was not found"
     end
